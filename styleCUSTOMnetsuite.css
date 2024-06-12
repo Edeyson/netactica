@@ -1,0 +1,770 @@
+@import url("https://netactica.com/Portals/0/assets_for_all_results/estructura.css");
+
+:root{
+    --custom-color-primary:#151f6d;
+    /*custom-color-secundary is used in hover buttons and others.*/
+    --custom-color-secundary:#f38631;
+}
+
+.CommandButton,
+.Head,
+.Normal,
+.NormalBold,
+.NormalDisabled,
+.NormalRed,
+.NormalTextBox,
+.SubHead,
+.SubSubHead,
+a:hover,
+a:link,
+a:visited,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+table,
+td,
+th {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div#catmanduHeader{
+    margin-bottom: 10px;
+}
+@media (min-width:951px) {
+    div#catmanduHeader 
+    .mis1trat {
+        color: var(--custom-color-primary)!important;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+div#catmanduHeader header.header1.header-container2 {
+    background: #fff;
+    z-index: 132;
+    top: 0;
+}
+
+
+/* Nueva Busqueda -------------------- */
+.nts-callout-primary {
+    background: #fff!important;
+	box-shadow: 0px 1px 8px #ccc;
+    border-radius: 8px;
+}
+.nts-callout-primary input[type=text] {
+    border-radius: 8px;
+	background: #f2f5f9;
+    border: 0px;
+
+}
+div#divNewSearch .large-6.small-12.column {
+    margin-top: 5px;
+}
+
+
+div#ulNewSearch select 
+{
+    border-radius: 8px;
+	background: #f2f5f9;
+
+}
+
+span.text-left.title {
+    color: #1e2e5e;
+}
+
+
+
+/* Filtros -------------------- */
+div#stopsFilter, div#baggagesFilter, div#airlineFilter, div#allianceFilter, .row.filter-airPrice.priceFilter, .row.filter-airFlightDurations, .row.filter-airFlightDurations 
+{
+   
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.row.filter-carPriceRanges.priceFilter, .row.filter-carCompanies, .row.filter-carCategories, .row.filter-carTypes, .row.filter-airConditioned, .row.filter-transmissionType, .row.filter-maxDoors, .row.filter-maxPax
+{
+   
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.slider-handle {
+background-color: var(--custom-color-secundary)!important;
+
+}
+
+/* General -------------------- */
+
+a {
+    color: var(--custom-color-primary);
+}
+
+span.nts-tag {
+    border-radius: 20px;
+}
+
+.hotelResult, .airOption, .divExtra {
+    box-shadow: none!important;
+
+}
+
+.callout.hotelPriceColumn, .callout.airPriceColumn, .callout.carPriceColumn, .callout.extraPriceColumn {
+    background-color: #fff!important;
+	border-left: 1px solid #d2d2d2;
+}
+
+.includes-item.active .step {
+    background: none repeat scroll 0 0 var(--custom-color-secundary)!important;
+}
+.includes-item.active {
+    border-bottom: 2px solid var(--custom-color-secundary)!important; box-shadow: 0 4px 7px 0 #d3d3d3;
+}
+.jpagination .jp-current {
+    background: var(--custom-color-primary)!important;
+}
+
+div#divTitle .large-6.column.text-right.small-text-left {
+    text-align: left;
+    background: white;
+    border-radius: 8px;
+    width: auto;
+    padding: 4px 25px;
+    border: 1px solid var(--custom-color-primary);
+    font-size: 16px!important;
+    font-weight: 500;
+    float: left;
+    margin-top: -7px;
+    margin-left: 0;
+}
+div#divTitle .large-6.column.text-right.small-text-left a{
+	font-size: 16px;
+}
+.button.hollow {
+    border: 1px solid var(--custom-color-primary)!important;
+    color: #fff;
+}
+
+/* Titulos -------------------- */
+.small-12.columns.pkg-title, span.fontXXLarge, .fontXXXLarge, span.hotelName a, span.hotelNameDetails, .sectionTitle {
+    color: var(--custom-color-primary)!important;
+}
+
+/* Precios -------------------- */
+
+span.currencyText {
+    font-weight: 500;
+}
+p.totalpackprice.small-text-center.price-extra.money span.currencyText, p.totalpackprice.price-extra.money {
+    font-size: 20px!important;
+}
+p.totalpackprice.price-extra.money span.currencyText {
+    font-size: 26px;
+}
+.currencyCode, .currencyText{
+    color: var(--custom-color-primary)!important;
+}
+
+/* Botones -------------------- */
+
+.button {
+    background: var(--custom-color-primary)!important;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 14px!important;
+}
+.button:hover, .button:focus {
+    background-color: var(--custom-color-secundary)!important;
+	color: #fff!important;
+}
+
+div#divSeatMap input#submitSeatMap {
+    background: transparent;
+    border: 1px solid var(--custom-color-primary);
+    color: var(--custom-color-primary);
+}
+div#divSeatMap input#submitSeatMap:hover {
+    background-color: var(--custom-color-secundary)!important;
+	color: #fff!important;
+}
+
+
+/* Aereos -------------------- */
+
+.nts-matrixTitle.stopCount a {
+    color: #444!important;
+    font-weight: 500;
+}
+
+
+#divAirMatrixConteiner.tabs-content li.tabs-title.hide-for-small-only.is-active, #divAirMatrixConteiner.tabs-content li.tabs-title {
+	width: 50%;
+    text-align: center;
+
+}
+
+div#divAirMatrixConteiner {
+    border: 1px solid #ccc!important;
+    border-radius: 8px;
+    background: #fff!important;
+}
+
+#airMatrixtabs.tabs {
+	border-radius: 8px;
+    border: none;
+    background: none;
+    background: #fff!important;
+}
+div#divAirMatrix {
+    padding-top: 6px;
+}
+
+#airMatrixtabs .tabs-title > a {
+    background: #fff!important;
+    border: 0!important;
+	padding-left: 80px;
+    padding-right: 80px;
+	font-size: 14px;
+	color: #444!important;
+}
+
+#airMatrixtabs .tabs-title > a:focus, #airMatrixtabs .tabs-title > a[aria-selected='true'] {
+    color: var(--custom-color-primary)!important;
+    font-weight: 500;
+    text-decoration: underline;
+	padding-left: 80px;
+    padding-right: 80px;
+	font-size: 14px;
+}
+a#divFlexDatesMatrix-label {
+    color: #666;
+    font-size: 14px;
+}
+
+span.ellipsis.has-tip {
+    font-weight: 500;
+    color: #444;
+}
+
+.baggage .baggage-small.off, .baggage .baggage-large.off {
+    fill: #ccc!important;
+}
+
+/* Aereos upsell -------------------- */
+
+
+.upsell.main-board {
+    max-width: 1200px!important;
+	border-radius: 8px;
+	border: 0px;
+    background: transparent;
+}
+
+.upsell .callout.packagePrice {
+    padding: 10px!important;
+    border-radius: 8px;
+    margin-right: -29px;
+    border: 1px solid #ccc!important;
+}
+
+
+
+/* Autos -------------------- */
+
+.large-3.column.text-right.reprice.vehicleAmount {
+    text-align: center;
+}
+
+.divCarContent i {
+    color: var(--custom-color-primary) !important;
+}
+
+.carDetailsBuyNow{
+    background: transparent!important;
+    border: 1px solid #ccc;
+}
+.carDetailsBuyNowLoading {
+    background: transparent!important;
+}
+
+
+.divPayAtDestinationHeader, .carRatePayAtDestination.selected {
+    background-color: var(--custom-color-primary)!important;
+
+}
+.divPayAtDestinationHeader:after {
+    border-top-color: var(--custom-color-primary)!important;
+}
+
+.carRatePayAtDestination {
+    border: 1px solid var(--custom-color-primary);
+    }
+
+.price-extra.money span {
+    color: var(--custom-color-secundary)!important;
+}
+.divPayNowHeader:after {
+    border-top-color: var(--custom-color-secundary)!important;
+}
+.divPayNowHeader {
+    background-color: var(--custom-color-secundary)!important;
+    color: var(--custom-color-primary)!important;
+}
+.carRatePayNow.selected {
+    background-color: var(--custom-color-secundary)!important;
+    border: var(--custom-color-secundary)!important;
+}
+
+	
+/* Pasajeros -------------------- */
+
+div#passenger_0, div#driver_passenger, .callout.passenger {
+    background: #fff!important;
+    border-radius: 8px;
+}
+
+div#divPassengers input, select#Travelers_0__Title, select#Travelers_0__DocumentType, select#Travelers\[0\]\.DOB_d {
+    border-radius: 6px;
+   
+}
+
+.big-city-code {
+    color: var(--custom-color-primary)!important;
+ }
+ 
+.callout.paymentBreakDown {
+    border: 1px solid #ecf1f5!important;
+    background: #ecf1f566!important;
+}
+
+/* Hoteles -------------------- */
+
+.ribbon, .ribbondetailpage {
+
+    background-color: var(--custom-color-primary)!important;
+    border-radius: 6px 6px 6px 0;
+}
+
+.callout.nts-card.hoteldetail-bottom {
+    border: none;
+}
+
+.hotelDetailsBuyNow.callout {
+    background: transparent!important;
+    border: 1px solid #ccc;
+}
+
+
+
+/* MOBILE :  */
+
+@media (max-width:850px) {
+    .vehicleOption>div:nth-child(3)>div:nth-child(2)>div:nth-child(2), .vehicleOption>div:nth-child(3)>div:nth-child(2)>div:nth-child(4) {
+        display: grid;
+        grid-template-columns: 0 30px 1fr;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    div#divTitle .large-6.column.text-right.small-text-left {
+        margin-top: 10px!important;
+        margin-left: 14px!important;
+    }
+    div#divTitle {
+        margin: 0;
+    }
+    div#divTitle>div {
+        padding: 10px 0!important;
+    }
+    #airMatrixtabs .tabs-title > a:focus, #airMatrixtabs .tabs-title > a[aria-selected='true']{
+        padding : 0px!important
+    }
+    .includes-item .step + div{
+        margin: 0.8rem
+    }
+    .vehicleOption {
+        margin-bottom: 2rem;
+        border-bottom: 2px solid #ccc!important;
+    }
+    #airMatrixtabs .tabs-title > a {
+        padding: 20px 0!important;
+    }
+    .upsell .callout.packagePrice {
+        margin: 0px!important;
+        margin-bottom: 15px!important;
+    }
+}
+
+/* travel extras */
+
+div#divExtraFilters span.ui-state-default, a.ui-state-default {
+    text-align: center!important;
+    font-size: 14px!important;
+}
+div#divExtraFilters .filters .ui-datepicker {
+    padding: 7px 10px;
+}
+.row.filter-extraPriceRanges.priceFilter, .row.filter-extraTypes, .row.filter-hotelNameContains {
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.callout.ExtraPriceSummaryColumn.text-center {
+    background: #fff!important;
+    border: 1px solid #ccc;
+}
+.nts-button.alternate {
+    background-color: transparent!important;
+    color: var(--custom-color-primary)!important;
+    border: 1px solid var(--custom-color-primary)!important;
+}
+
+/* estilos calendario  */
+
+@media (min-width: 768px) {
+    #ui-datepicker-div {
+        width: 47em !important;
+        padding: 2px 8px 10px 8px;
+    }
+}
+
+.ui-widget-header .ui-icon {
+    opacity: 60%;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+    margin-left: -14px !important;
+    margin-top: -5px !important;
+}
+
+.ui-datepicker-group.ui-datepicker-group-first {
+    padding-right: 10px !important;
+}
+
+.ui-datepicker-group.ui-datepicker-group-last {
+    padding-left: 10px !important;
+}
+
+#ui-datepicker-div .ui-widget-header {
+    background: none !important;
+}
+
+table.ui-datepicker-calendar tr th {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    margin: 3px 0px !important;
+}
+.ui-datepicker-title 
+span {
+    font-size: 14px;
+}
+span.ui-datepicker-month {
+    font-size: 14px;
+    margin-right: 6px;
+    font-weight: 500;
+}
+table.ui-datepicker-calendar span {
+    color: #ccc !important;
+}
+
+span.ui-state-default {
+    font-size: 13px !important;
+}
+
+.ui-datepicker td {
+    padding: 0px !important;
+}
+
+td.undefined.ui-datepicker-today a {
+    color: #2196F3 !important;
+}
+
+#ui-datepicker-div .ui-state-active a,
+#ui-datepicker-div .ui-state-active-from a,
+#ui-datepicker-div .ui-state-active-from span,
+#ui-datepicker-div .ui-state-active-to a {
+    color: #fff !important;
+    background: #2196F3 !important;
+    border-radius: 6px;
+}
+
+#ui-datepicker-div .ui-state-active-from-to {
+    background-color: #E3F2FD !important;
+    
+}
+
+#ui-datepicker-div a.ui-state-default:hover {
+    color: #2196F3;
+    border-radius: 5px!important;
+    background: #E3F2FD!important;
+}
+
+#ui-datepicker-div .ui-state-active,
+#ui-datepicker-div .ui-state-active-from,
+#ui-datepicker-div .ui-state-active-to {
+    background-color: #E3F2FD !important;
+}
+
+#ui-datepicker-div a.ui-state-default {
+    font-weight: 500 !important;
+    font-size: 12px!important;
+}
+
+#ui-datepicker-div .ui-datepicker-calendar th span {
+    color: #000 !important;
+    font-weight: 600;
+}
+
+
+/* fin estilos calendario  */
+div .ui-datepicker-header a:hover span {
+    background-color: transparent !important;
+}
+
+@media (max-width: 767px) {
+    body
+    .divTitleDatePicker {
+        background-color: #2196f3;
+    }
+    body
+    .divTitleDatePicker h2 {
+        margin-bottom: 0;
+        font-size: 1rem;
+        color: #ffffff;
+        font-weight: normal;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 7px;
+    }
+}
+
+li, p {
+    line-height: 1.7em;
+}
+
+/* ---------------------------------------- NEW-FRONT STYLES RESULS*/
+/* BTNS PRIMARIES THE NEW FRONT */
+app-search> .main-content > div:last-child .mat-button-base:not(.mat-button-disabled),
+button.search-btn:not(.mat-button-disabled),
+hotel-room-dialog>div:last-child>div>div:last-child button:not(.mat-button-disabled) {
+  color: #fff!important;
+  background-color: var(--custom-color-primary)!important;
+}
+/* BTNS PRIMARIES HOVER THE NEW FRONT */
+app-search> .main-content > div:last-child 
+.mat-button-base:hover,
+button.search-btn:hover,
+hotel-room-dialog>div:last-child>div>div:last-child button:hover {
+  background-color: var(--custom-color-secundary)!important;
+}
+.price-details strong,
+.price-details,
+.currency,
+.hotel-room__body h2{
+  color: var(--custom-color-secundary)!important;
+}
+/* icons the widget search */
+.rooms-passenger-icon .fas, 
+.search-input .mat-datepicker-toggle .mat-datepicker-toggle-default-icon, .search-input__icon .far, .search-input__icon .fas,
+.search-btn__data .icon-search-detail {
+  color: #380459;
+}
+/* icons the widget search hover */
+.rooms-passenger-icon:hover .fas,
+.search-input:hover .mat-datepicker-toggle .mat-datepicker-toggle-default-icon,
+.search-input__icon:hover .far, .search-input__icon:hover .fas {
+  color: var(--custom-color-primary);
+}
+/* boton de [agregar habitacion] */
+.mat-focus-indicator.btn-add-room {
+  padding: 0 5px!important;
+}
+.search-btn__data h2{
+  color: var(--custom-color-primary)!important;
+}
+/* description result */
+/* .hotel-item__description p {
+    color: var(--custom-color-primary)!important;
+} */
+/* title primary the page result */
+hotel-result-details label:first-child {
+  color: var(--custom-color-primary)!important;
+}
+/* title the results */
+.tooltip-title-container h2 {
+  color: var(--custom-color-primary)!important;
+}
+
+.filter-item .ngx-slider .ngx-slider-selection,
+.filter-item .ngx-slider .ngx-slider-pointer{
+  background-color: var(--custom-color-primary)!important;
+}
+
+.filter-item__title{
+  color: var(--custom-color-primary)!important;
+}
+
+/*------------------------------------- DETALLES DEL HOTEL */
+/* title the hotel */
+.hotel-info__title h2 {
+  color: var(--custom-color-primary)!important;
+}
+/* title the description the hotel */
+.hotel-detail h2, .hotel-room__info h2 {
+  color: var(--custom-color-primary)!important;
+}
+
+/* text the description the hotel */
+/* .hotel-detail p{
+  color: var(--custom-color-primary)!important;
+} */
+/* btn [ver habitacion] */
+.hotel-room__footer .btn-room,.btn-booking{
+  background-color: var(--custom-color-primary)!important;
+}
+/* btn [ver habitacion] hover*/
+.hotel-room__footer .btn-room:hover,.btn-booking:hover{
+  background-color: var(--custom-color-secundary)!important;
+}
+/* btn [Reservar] */
+.room-option-header h2 {
+    color: var(--custom-color-primary);
+}
+/* btn [Leer mas] */
+/* hotel-detail 
+.btn-show-more__hotel-deltail {
+  color: var(--custom-color-primary);
+} */
+/* price the other dates */
+.room-option-price .price strong {
+  color: var(--custom-color-secundary);
+}
+
+/* -=======------------------------------ //passenger */
+
+/* titles the page passangers */
+passenger h2,passenger h3  {
+  color: var(--custom-color-primary)!important;
+}
+passenger 
+hotel-booking-summary h2 {
+  color: #fff!important;
+}
+/* ------------------------------------------------ MOBILE STYLE  */
+@media only screen and (max-width: 768px){
+  /* BTN ICON SEARCH */
+  .search-btn__icon {
+      background: var(--custom-color-primary);
+  }
+  /* ICON THE [FILTRAR & ORDENAR]  */
+  .mobile-controls .fas {
+      color: var(--custom-color-primary);
+  }
+    /* TEXT [LIMPIAR] BTN IN THE BOX FILTER */
+  .remove-filter-mobile {
+      color: var(--custom-color-primary);
+  }
+  /* Calendar border bottom date in  */
+  .dates-range .checkin-date {
+      border-bottom: 2px solid var(--custom-color-primary);
+  }
+  /* dates btns check date */
+  .mobile-calendar-container .p-datepicker table td>span.p-highlight {
+      background: var(--custom-color-primary);
+  }
+  .hotel-detail-tabs .mat-tab-group.mat-primary .mat-ink-bar {
+      background: var(--custom-color-primary);
+  }
+  .room-option-header a {
+      color: var(--custom-color-primary) !important;
+  }
+  .booking-btn-container .booking-details h2 {
+      color: #545454;
+  }
+  .non-refundable-text,
+  .room-details span.tax {
+    font-size: 12px;
+    }
+}
+/* Adding some styles */
+.currencyCode, .currencyText {
+    color: var(--custom-color-primary);
+}
+.filter-item .btn-view-more-wrapper button {
+    border-color: var(--custom-color-primary);
+    color: var(--custom-color-primary);
+}
+.filter-item .btn-view-more-wrapper button:hover {
+    border-color: var(--custom-color-secundary);
+    color: var(--custom-color-secundary);
+}
+.btn-show-more__hotel-deltail {
+    border: 1px solid var(--custom-color-primary);
+    color: var(--custom-color-primary);
+    padding: 10px 16px;
+}
+.amenity-grid__item .fa-check {
+    color: var(--custom-color-secundary);
+}
+.hotel-detail-tabs .mat-tab-group.mat-primary .mat-ink-bar {
+    background-color: var(--custom-color-secundary);
+}
+.mt-2, .my-2 {
+    margin-top: 1rem!important;
+}
+.ng-star-inserted .return-result-link {
+    cursor: pointer;
+    text-align: left;
+    background: white;
+    border-radius: 8px;
+    padding: 4px 25px;
+    border: 1px solid var(--custom-color-primary);
+    font-size: 16px!important;
+    font-weight: 500;
+    color: var(--custom-color-primary);
+}
+.ng-star-inserted .passenger-page-title {
+    margin-top: 15px;
+}
+.safeStayFilterText {
+    color: #444;
+}
+.ribbon:before {
+    border-top: 15px solid var(--custom-color-primary);
+}
+.menu > li > a {
+    color: var(--custom-color-primary);
+}
+.hotel-info__amenity ul li .fa-check {
+    color: var(--custom-color-secundary);
+}
+.btn.btn-info:active, .btn.btn-info:focus, .btn.btn-info:hover, .mat-button.btn.btn-info:active, .mat-button.btn.btn-info:focus, .mat-button.btn.btn-info:hover, .mat-raised-button.btn.btn-info:active, .mat-raised-button.btn.btn-info:focus, .mat-raised-button.btn.btn-info:hover, .mat-raised-button.btn:not([class*=mat-elevation-z]).btn-info:active, .mat-raised-button.btn:not([class*=mat-elevation-z]).btn-info:focus, .mat-raised-button.btn:not([class*=mat-elevation-z]).btn-info:hover {
+    box-shadow: none;
+}
+.mat-calendar-body-selected {
+    background: var(--custom-color-primary);
+}
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background-color: var(--custom-color-primary);
+    color: #fff;
+}

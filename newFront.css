@@ -1,0 +1,275 @@
+:root {
+    --custom-color-primary:#09194a;
+    /*custom-color-secundary is used in hover buttons and others.*/
+    --custom-color-secundary:#0477B9;
+}
+
+body {
+    color: var(--custom-color-primary);
+}
+
+.search-btn {
+    background: var(--custom-color-primary);
+}
+.search-btn:hover {
+    background: var(--custom-color-secundary);
+}
+.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label, .order-sorter-item.has-success .mat-form-field-label, .order-sorter-item.mat-focused .mat-form-field-label, .order-sorter-item.mat-form-field-empty.mat-form-field-label {
+    color: var(--custom-color-primary);
+}
+.form-card {
+    box-shadow: 0px 11px 34px 0px rgb(52 99 188 / 10%);
+    background: #f8f8f8;
+}
+
+.rooms-passenger-icon {
+    color: var(--custom-color-primary);
+}
+
+.rooms-passenger-icon .fas, .search-input .mat-datepicker-toggle .mat-datepicker-toggle-default-icon, .search-input__icon .far, .search-input__icon .fas {
+    color: var(--custom-color-primary);
+}
+
+.mat-calendar-body-selected {
+    background-color: var(--custom-color-primary);
+}
+
+.mat-calendar-body-in-range:before {
+    background: #e9e9e9;
+}
+
+.cdk-keyboard-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical), .cdk-program-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical), .mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+    background-color: #e9e9e9;
+}
+
+hotel-result-details.ng-tns-c155-0 label:nth-child(1) {
+    color: var(--custom-color-primary) !important;
+}
+
+.p-dropdown:not(.p-disabled):hover {
+    border-color: var(--custom-color-primary);
+}
+.order-sorter-item .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+    background: #e8e8e8;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+    color: var(--custom-color-primary);
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+    color: var(--custom-color-primary);
+}
+.btn-add-room {
+    color: var(--custom-color-primary);
+}
+
+.room-btn {
+    background: var(--custom-color-primary);
+}
+.filter-container .map-filter__btn button {
+    background-color: var(--custom-color-primary) !important;
+}
+
+.filter-container .map-filter__btn button:hover {
+    background-color: var(--custom-color-secundary) !important;
+}
+.filter-chip-item .mat-chip.mat-standard-chip {
+    background-color: #eeeeee;
+}
+
+.filter-chip-item .mat-chip.mat-standard-chip svg {
+    background: #898989;
+}
+
+.filter-chip-item .clear-chip {
+    color: var(--custom-color-primary);
+}
+.filter-chip-item .mat-chip.mat-standard-chip {
+    background-color: #eeeeee;
+}
+
+.filter-chip-item .mat-chip.mat-standard-chip svg {
+    background: #898989;
+}
+
+.filter-chip-item .clear-chip {
+    color: var(--custom-color-primary);
+}
+
+.filter-item .ngx-slider .ngx-slider-pointer {
+    background: var(--custom-color-primary);
+}
+
+.ngx-slider .ngx-slider-bar {
+    background: #d1d1d1;
+}
+
+.filter-item .ngx-slider .ngx-slider-selection {
+    background: var(--custom-color-primary);
+}
+
+.filter-item__stars .mat-checkbox-checked .mat-checkbox-inner-container {
+    border-color: var(--custom-color-primary) !important;
+    background: #f1f1f1;
+}
+
+.filter-item__stars .mat-checkbox-checked .mat-checkbox-label {
+    color: var(--custom-color-primary);
+}
+
+.mat-checkbox .mat-checkbox-layout input.mat-checkbox-input:focus, .mat-checkbox .mat-ripple-element {
+    background: var(--custom-color-primary) !important;
+}
+
+.mat-checkbox .mat-checkbox-layout .mat-checkbox-inner-container .mat-checkbox-checkmark-path {
+    background: var(--custom-color-primary);
+    stroke:  var(--custom-color-primary) !important;
+}
+
+.filter-item .btn-view-more-wrapper button {
+    color: var(--custom-color-primary);
+    border-color: var(--custom-color-primary);
+}
+
+.filter-item .btn-view-more-wrapper button:focus, .filter-item .btn-view-more-wrapper button:hover, .filter-item .btn-view-more-wrapper button:visited {
+    border-color: var(--custom-color-secundary);
+    color: var(--custom-color-secundary);
+}
+
+.filter-item .btn-view-more-wrapper button {
+    color: var(--custom-color-primary);
+    border-color: var(--custom-color-primary);
+}
+
+.filter-item .btn-view-more-wrapper button:focus, .filter-item .btn-view-more-wrapper button:hover, .filter-item .btn-view-more-wrapper button:visited {
+    border-color: var(--custom-color-secundary);
+    color: var(--custom-color-secundary);
+}
+
+.hotel-item__card {
+    box-shadow: 0px 6px 20px 0px rgb(52 99 188 / 10%);
+}
+
+.hotel-item__title h2 {
+    color: var(--custom-color-primary);
+}
+
+.hotel-item__description p {
+    color: var(--custom-color-primary);
+}
+
+.hotel-item__badge-discount .discount-text {
+    color: var(--custom-color-primary);
+}
+
+.hotel-item__card .hotel-item__price-container a {
+    background-color: var(--custom-color-primary);
+}
+
+.hotel-item__card .hotel-item__price-container a:hover {
+    background: var(--custom-color-secundary);
+}
+
+.discount-rate {
+    color: var(--custom-color-primary);
+    border: 1px solid var(--custom-color-primary);
+    border-radius: 6px;
+}
+
+.btn.btn-info.focus, .btn.btn-info:focus, .btn.btn-info:hover, .mat-button.btn.btn-info.focus, .mat-button.btn.btn-info:focus, .mat-button.btn.btn-info:hover, .mat-raised-button.btn.btn-info.focus, .mat-raised-button.btn.btn-info:focus, .mat-raised-button.btn.btn-info:hover, .mat-raised-button.btn:not([class*=mat-elevation-z]).btn-info.focus, .mat-raised-button.btn:not([class*=mat-elevation-z]).btn-info:focus, .mat-raised-button.btn:not([class*=mat-elevation-z]).btn-info:hover {
+    background: var(--custom-color-primary);
+    border-color: var(--custom-color-primary);
+}
+.hotel-info__title h2 {
+    color: var(--custom-color-primary);
+}
+
+.hotel-info__title .hotel-address {
+    color:var(--custom-color-primary);
+}
+
+.hotel-detail p {
+    color: var(--custom-color-primary);
+}
+
+.hotel-detail h2, .hotel-room__info h2 {
+    color: var(--custom-color-primary);
+}
+.btn-booking, .btn-room {
+    background: var(--custom-color-primary);
+}
+
+.btn-show-more__hotel-deltail {
+    color: var(--custom-color-primary);
+    border: 1px solid var(--custom-color-primary);
+}
+.room-option-card {
+    box-shadow: 0px 11px 34px 0px rgb(52 99 188 / 10%);
+}
+.room-option-header {
+    background: #ededed;
+}
+
+.room-only-boardtype {
+    color: var(--custom-color-primary) !important;
+}
+.return-result-link {
+    color: var(--custom-color-primary);
+    border: 1px solid #9d9d9d;
+}
+.return-result-link:hover {
+    background: #e3e3e3;
+}
+
+.passenger-page-title h2 {
+    color: var(--custom-color-primary);
+}
+
+.passenger-card__header h2 {
+    color: var(--custom-color-primary);
+}
+
+.mat-expansion-panel-header-title {
+    color: var(--custom-color-primary);
+}
+.dialog-btn {
+    background: var(--custom-color-primary);
+}
+
+.session-expiration .fa-clock-o {
+    color: var(--custom-color-primary);
+}
+@media only screen and (max-width: 768px){
+    .search-btn__data {
+        background: white;
+    }
+    
+    .search-btn__icon {
+        background: var(--custom-color-primary);
+    }
+    .mobile-controls .fas {
+        color: var(--custom-color-primary);
+    }
+    
+    .remove-filter-mobile {
+        color: var(--custom-color-primary);
+    }
+    
+    .dates-range .checkin-date {
+        border-bottom: 2px solid var(--custom-color-primary);
+    }
+    
+    .mobile-calendar-container .p-datepicker table td>span.p-highlight {
+        background: var(--custom-color-primary);
+    }
+    .hotel-detail-tabs .mat-tab-group.mat-primary .mat-ink-bar {
+        background: var(--custom-color-primary);
+    }
+    .room-option-header a {
+        color: var(--custom-color-primary) !important;
+    }
+    .booking-btn-container .booking-details h2 {
+        color: #545454;
+    }
+}
