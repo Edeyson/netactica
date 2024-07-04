@@ -1,12 +1,12 @@
 {
   "plan1": {
     "tour": {
-      "nombre_del_plan": "Amazonas 4 días",
+      "nombre_del_plan": " 4 días",
       "plan_code": "LET003",
       "city_code": "LET"
     },
     "months": {
-      "Julio": "2024-07-01/2024-07-31",
+      "Julio": "2024-08-01/2024-07-31",
       "Agosto": "2024-08-01/2024-08-31",
       "Septiembre": "2024-09-01/2024-09-30",
       "Octubre": "2024-10-01/2024-10-31",
