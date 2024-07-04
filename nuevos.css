@@ -1,0 +1,18 @@
+p {
+    margin: 0;
+}
+span.nts-tag {
+    border-radius: 20px;
+}
+
+header{
+    background-color: transparent !important;
+    height: auto !important;
+}
+.w-100{
+    width: 100% !important;
+}
+footer ul{
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}

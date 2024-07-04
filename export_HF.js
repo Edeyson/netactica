@@ -14,7 +14,7 @@ function onInit() {
         exportHeader();
         exportFooter();
         exportWpage();
-        exportStyle();
+        exportStyleCatmandu();
         download(); 
     }, 1000);
 }
@@ -77,7 +77,7 @@ function download() {
         } )
         let linkcss1 = document.querySelector('link[href*="/assets/css/header--"]');
         let linkcss2 = document.querySelector('link[href*="/assets/css/footer--"]');
-        let linkcss3 = document.querySelector('link[href*="/assets/css/skin"]');
+        let linkcss3 = document.querySelector('link[href*="/assets/css/utilitybootstrap"]');
         let misReservasUrl = header_export.querySelector('a[href*="dnnMYBOOKINS"]');
         linkcss1.href = splitE(linkcss1.href);
         linkcss2.href = splitE(linkcss2.href);
@@ -149,9 +149,53 @@ function script_datahead(){
         `;
     return script;
 }
-function exportStyle(){
-    $.get( "/portals/0/assets_for_all_results/export_header_footer/style.css", function(data) {
-        localStorage.setItem('style',data);
-      });
+function exportStyleCatmandu() {
+    $.get("/portals/0/assets_for_all_results/export_header_footer/style.css", function(data) {
+        const cssVariables = [
+            '--net-color-primary',
+            '--net-color-secundary',
+            '--net-color-terciary',
+            '--net-color-sucess',
+            '--net-color-danger',
+            '--net-color-warning',
+            '--net-color-info',
+            '--net-color-light',
+            '--net-color-dark',
+            '--net-btn-bg-primary',
+            '--net-btn-bg-primary-hover',
+            '--color-header-link',
+            '--color-header-link-hover',
+            '--color-header-transparent-link',
+            '--color-header-transparent-link-hover',
+            '--net-color-link',
+            '--net-color-link-hover',
+            '--color-1',
+            '--color-2',
+            '--color-3'
+        ];
+        let cssRootVariables = ':root {\n';
+        cssVariables.forEach(variable => {
+            const value = getCSSVariable(variable);
+            cssRootVariables += `  ${variable}: ${value};\n`;
+        });
+        cssRootVariables += '}\n';
+        let lines = data.split('\n');
+        lines.splice(2, 0, cssRootVariables);
+        data = lines.join('\n');
+
+        console.log(data);
+        localStorage.setItem('style', data);
+    });
 }
+
+function exportStyleNetfullfillment(){
+    
+}
+
 onInit();
+
+
+function getCSSVariable(varName) {
+    return getComputedStyle(document.documentElement).getPropertyValue(varName).trim();
+}
+

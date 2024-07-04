@@ -1,10 +1,150 @@
 @import url("https://netactica.com/Portals/0/assets_for_all_results/estructura.css");
 
-:root{
-    --custom-color-primary:#151f6d;
-    /*custom-color-secundary is used in hover buttons and others.*/
-    --custom-color-secundary:#f38631;
+
+header{
+    background-color: transparent !important;
+    height: auto !important;
 }
+
+.header-container{
+    margin-bottom: 1rem;
+}
+
+._navbar__btn-page-desk{
+    height: 20px;
+}
+
+#dnn_dnnLOGO_imgLogo {
+    max-height: auto;
+  }
+
+@media (max-width: 767px) {
+  .footer-net{
+      margin: 0 !important;
+  }
+  #dnn_dnnLOGO_imgLogo {
+    max-height: 40px;
+  }
+}
+
+.header__includes, .footer-net{
+  width: auto !important;
+}
+
+.header__menu.header__menu--logo #dnn_dnnLOGO_imgLogo{
+  max-width: 180px;
+}
+
+
+.link--icon {
+  color: var(--net-color-light) !important;
+  background-color: var(--net-color-primary);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+}
+.link--icon:hover {
+  color: var(--net-color-light) !important;
+  background-color: var(--net-color-secundary);
+  text-decoration: none;
+}
+
+.footer-net p{
+  margin-bottom: 0;
+}
+.footer-net__list, ._navbar__list{
+  margin-left: 0 !important;
+}
+
+
+
+.net-accordion__container {
+    padding: 10px 0 15px;
+  }
+  .net-accordion__title {
+    padding: 10px 0;
+    position: relative;
+    font-size: 18px;
+  }
+  .net-accordion__title::after {
+    content: "+";
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    color: var(--net-color-primary);
+    font-size: 20px;
+    transform: translate(0, -50%);
+    text-align: center;
+    font-weight: bold;
+    transition: 0.5s;
+    background-color: var(--net-color-light);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .net-accordion__child {
+    margin-bottom: 2px;
+  }
+  @media (max-width: 768px) {
+    .net-accordion__child {
+      width: 100%;
+    }
+  }
+  .net-accordion__child.active .net-accordion__title::after {
+    content: "-";
+    padding-bottom: 11px;
+    padding-top: 9px;
+    padding-right: 11px;
+  }
+  .net-accordion__body {
+    padding: 0 0;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .net-accordion__child.active .net-accordion__body {
+    display: block;
+    padding: 10px 0;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  
+  @media (min-width: 769px) {
+    .net-accordion__title::after {
+      content: inherit;
+    }
+    .net-accordion__body {
+      height: -moz-max-content;
+      height: max-content;
+      padding: 10px 0;
+      background-color: transparent;
+    }
+    .net-accordion__title {
+      background-color: transparent;
+      font-weight: 500;
+      font-size: 17px;
+    }
+  }
+  
+  .footer-net__list--row{
+    flex-direction: column !important;
+  }
+  
+  .social__list{
+    flex-direction: row !important;
+  }
+
+
+
+/* ------------------------------------------------------ Resultados -----------------**/
 
 .CommandButton,
 .Head,
@@ -28,8 +168,8 @@ h6,
 input,
 table,
 td,
-th {
-    font-family: 'Montserrat', sans-serif;
+th, body {
+  font-family: var(--font-family-primary) !important;
 }
 
 div#catmanduHeader{
@@ -38,7 +178,7 @@ div#catmanduHeader{
 @media (min-width:951px) {
     div#catmanduHeader 
     .mis1trat {
-        color: var(--custom-color-primary)!important;
+        color: var(--net-color-primary)!important;
         padding: 10px;
         border-radius: 5px;
     }
@@ -100,14 +240,14 @@ div#stopsFilter, div#baggagesFilter, div#airlineFilter, div#allianceFilter, .row
 }
 
 .slider-handle {
-background-color: var(--custom-color-secundary)!important;
+background-color: var(--net-color-secundary)!important;
 
 }
 
 /* General -------------------- */
 
 a {
-    color: var(--custom-color-primary);
+    color: var(--net-color-secundary);
 }
 
 span.nts-tag {
@@ -125,13 +265,13 @@ span.nts-tag {
 }
 
 .includes-item.active .step {
-    background: none repeat scroll 0 0 var(--custom-color-secundary)!important;
+    background: none repeat scroll 0 0 var(--net-color-secundary)!important;
 }
 .includes-item.active {
-    border-bottom: 2px solid var(--custom-color-secundary)!important; box-shadow: 0 4px 7px 0 #d3d3d3;
+    border-bottom: 2px solid var(--net-color-secundary)!important; box-shadow: 0 4px 7px 0 #d3d3d3;
 }
 .jpagination .jp-current {
-    background: var(--custom-color-primary)!important;
+    background: var(--net-color-primary)!important;
 }
 
 div#divTitle .large-6.column.text-right.small-text-left {
@@ -140,7 +280,7 @@ div#divTitle .large-6.column.text-right.small-text-left {
     border-radius: 8px;
     width: auto;
     padding: 4px 25px;
-    border: 1px solid var(--custom-color-primary);
+    border: 1px solid var(--net-color-primary);
     font-size: 16px!important;
     font-weight: 500;
     float: left;
@@ -151,13 +291,13 @@ div#divTitle .large-6.column.text-right.small-text-left a{
 	font-size: 16px;
 }
 .button.hollow {
-    border: 1px solid var(--custom-color-primary)!important;
+    border: 1px solid var(--net-color-primary)!important;
     color: #fff;
 }
 
 /* Titulos -------------------- */
 .small-12.columns.pkg-title, span.fontXXLarge, .fontXXXLarge, span.hotelName a, span.hotelNameDetails, .sectionTitle {
-    color: var(--custom-color-primary)!important;
+    color: var(--net-color-secundary)!important;
 }
 
 /* Precios -------------------- */
@@ -172,30 +312,30 @@ p.totalpackprice.price-extra.money span.currencyText {
     font-size: 26px;
 }
 .currencyCode, .currencyText{
-    color: var(--custom-color-primary)!important;
+    color: var(--net-color-secundary)!important;
 }
 
 /* Botones -------------------- */
 
 .button {
-    background: var(--custom-color-primary)!important;
+    background: var(--net-color-primary)!important;
     border-radius: 10px;
     padding: 15px;
     font-weight: 600;
     font-size: 14px!important;
 }
 .button:hover, .button:focus {
-    background-color: var(--custom-color-secundary)!important;
+    background-color: var(--net-color-secundary)!important;
 	color: #fff!important;
 }
 
 div#divSeatMap input#submitSeatMap {
     background: transparent;
-    border: 1px solid var(--custom-color-primary);
-    color: var(--custom-color-primary);
+    border: 1px solid var(--net-color-primary);
+    color: var(--net-color-primary);
 }
 div#divSeatMap input#submitSeatMap:hover {
-    background-color: var(--custom-color-secundary)!important;
+    background-color: var(--net-color-secundary)!important;
 	color: #fff!important;
 }
 
@@ -240,7 +380,7 @@ div#divAirMatrix {
 }
 
 #airMatrixtabs .tabs-title > a:focus, #airMatrixtabs .tabs-title > a[aria-selected='true'] {
-    color: var(--custom-color-primary)!important;
+    color: var(--net-color-secundary)!important;
     font-weight: 500;
     text-decoration: underline;
 	padding-left: 80px;
@@ -287,7 +427,7 @@ span.ellipsis.has-tip {
 }
 
 .divCarContent i {
-    color: var(--custom-color-primary) !important;
+    color: var(--net-color-primary) !important;
 }
 
 .carDetailsBuyNow{
@@ -300,30 +440,30 @@ span.ellipsis.has-tip {
 
 
 .divPayAtDestinationHeader, .carRatePayAtDestination.selected {
-    background-color: var(--custom-color-primary)!important;
+    background-color: var(--net-color-primary)!important;
 
 }
 .divPayAtDestinationHeader:after {
-    border-top-color: var(--custom-color-primary)!important;
+    border-top-color: var(--net-color-primary)!important;
 }
 
 .carRatePayAtDestination {
-    border: 1px solid var(--custom-color-primary);
+    border: 1px solid var(--net-color-primary);
     }
 
 .price-extra.money span {
-    color: var(--custom-color-secundary)!important;
+    color: var(--net-color-secundary)!important;
 }
 .divPayNowHeader:after {
-    border-top-color: var(--custom-color-secundary)!important;
+    border-top-color: var(--net-color-secundary)!important;
 }
 .divPayNowHeader {
-    background-color: var(--custom-color-secundary)!important;
-    color: var(--custom-color-primary)!important;
+    background-color: var(--net-color-secundary)!important;
+    color: var(--net-color-primary)!important;
 }
 .carRatePayNow.selected {
-    background-color: var(--custom-color-secundary)!important;
-    border: var(--custom-color-secundary)!important;
+    background-color: var(--net-color-secundary)!important;
+    border: var(--net-color-secundary)!important;
 }
 
 	
@@ -340,7 +480,7 @@ div#divPassengers input, select#Travelers_0__Title, select#Travelers_0__Document
 }
 
 .big-city-code {
-    color: var(--custom-color-primary)!important;
+    color: var(--net-color-primary)!important;
  }
  
 .callout.paymentBreakDown {
@@ -352,7 +492,7 @@ div#divPassengers input, select#Travelers_0__Title, select#Travelers_0__Document
 
 .ribbon, .ribbondetailpage {
 
-    background-color: var(--custom-color-primary)!important;
+    background-color: var(--net-color-primary)!important;
     border-radius: 6px 6px 6px 0;
 }
 
@@ -428,8 +568,8 @@ div#divExtraFilters .filters .ui-datepicker {
 }
 .nts-button.alternate {
     background-color: transparent!important;
-    color: var(--custom-color-primary)!important;
-    border: 1px solid var(--custom-color-primary)!important;
+    color: var(--net-color-primary)!important;
+    border: 1px solid var(--net-color-primary)!important;
 }
 
 /* estilos calendario  */
@@ -568,103 +708,103 @@ app-search> .main-content > div:last-child .mat-button-base:not(.mat-button-disa
 button.search-btn:not(.mat-button-disabled),
 hotel-room-dialog>div:last-child>div>div:last-child button:not(.mat-button-disabled) {
   color: #fff!important;
-  background-color: var(--custom-color-primary)!important;
+  background-color: var(--net-color-secundary)!important;
 }
 /* BTNS PRIMARIES HOVER THE NEW FRONT */
 app-search> .main-content > div:last-child 
 .mat-button-base:hover,
 button.search-btn:hover,
 hotel-room-dialog>div:last-child>div>div:last-child button:hover {
-  background-color: var(--custom-color-secundary)!important;
+  background-color: var(--net-color-secundary)!important;
 }
 .price-details strong,
 .price-details,
 .currency,
 .hotel-room__body h2{
-  color: var(--custom-color-secundary)!important;
+  color: var(--net-color-secundary)!important;
 }
 /* icons the widget search */
 .rooms-passenger-icon .fas, 
 .search-input .mat-datepicker-toggle .mat-datepicker-toggle-default-icon, .search-input__icon .far, .search-input__icon .fas,
 .search-btn__data .icon-search-detail {
-  color: #380459;
+  color: var(--net-color-secundary);
 }
 /* icons the widget search hover */
 .rooms-passenger-icon:hover .fas,
 .search-input:hover .mat-datepicker-toggle .mat-datepicker-toggle-default-icon,
 .search-input__icon:hover .far, .search-input__icon:hover .fas {
-  color: var(--custom-color-primary);
+  color: var(--net-color-primary);
 }
 /* boton de [agregar habitacion] */
 .mat-focus-indicator.btn-add-room {
   padding: 0 5px!important;
 }
 .search-btn__data h2{
-  color: var(--custom-color-primary)!important;
+  color: var(--net-color-primary)!important;
 }
 /* description result */
 /* .hotel-item__description p {
-    color: var(--custom-color-primary)!important;
+    color: var(--net-color-primary)!important;
 } */
 /* title primary the page result */
 hotel-result-details label:first-child {
-  color: var(--custom-color-primary)!important;
+  color: var(--net-color-secundary)!important;
 }
 /* title the results */
 .tooltip-title-container h2 {
-  color: var(--custom-color-primary)!important;
+  color: var(--net-color-secundary)!important;
 }
 
 .filter-item .ngx-slider .ngx-slider-selection,
 .filter-item .ngx-slider .ngx-slider-pointer{
-  background-color: var(--custom-color-primary)!important;
+  background-color: var(--net-color-secundary)!important;
 }
 
 .filter-item__title{
-  color: var(--custom-color-primary)!important;
+  color: var(--net-color-secundary)!important;
 }
 
 /*------------------------------------- DETALLES DEL HOTEL */
 /* title the hotel */
 .hotel-info__title h2 {
-  color: var(--custom-color-primary)!important;
+  color: var(--net-color-secundary)!important;
 }
 /* title the description the hotel */
 .hotel-detail h2, .hotel-room__info h2 {
-  color: var(--custom-color-primary)!important;
+  color: var(--net-color-secundary)!important;
 }
 
 /* text the description the hotel */
 /* .hotel-detail p{
-  color: var(--custom-color-primary)!important;
+  color: var(--net-color-primary)!important;
 } */
 /* btn [ver habitacion] */
 .hotel-room__footer .btn-room,.btn-booking{
-  background-color: var(--custom-color-primary)!important;
+  background-color: var(--net-color-primary)!important;
 }
 /* btn [ver habitacion] hover*/
 .hotel-room__footer .btn-room:hover,.btn-booking:hover{
-  background-color: var(--custom-color-secundary)!important;
+  background-color: var(--net-color-secundary)!important;
 }
 /* btn [Reservar] */
 .room-option-header h2 {
-    color: var(--custom-color-primary);
+    color: var(--net-color-secundary);
 }
 /* btn [Leer mas] */
 /* hotel-detail 
 .btn-show-more__hotel-deltail {
-  color: var(--custom-color-primary);
+  color: var(--net-color-primary);
 } */
 /* price the other dates */
 .room-option-price .price strong {
-  color: var(--custom-color-secundary);
+  color: var(--net-color-secundary);
 }
 
 /* -=======------------------------------ //passenger */
 
 /* titles the page passangers */
 passenger h2,passenger h3  {
-  color: var(--custom-color-primary)!important;
+  color: var(--net-color-secundary)!important;
 }
 passenger 
 hotel-booking-summary h2 {
@@ -674,29 +814,29 @@ hotel-booking-summary h2 {
 @media only screen and (max-width: 768px){
   /* BTN ICON SEARCH */
   .search-btn__icon {
-      background: var(--custom-color-primary);
+      background: var(--net-color-primary);
   }
   /* ICON THE [FILTRAR & ORDENAR]  */
   .mobile-controls .fas {
-      color: var(--custom-color-primary);
+      color: var(--net-color-primary);
   }
     /* TEXT [LIMPIAR] BTN IN THE BOX FILTER */
   .remove-filter-mobile {
-      color: var(--custom-color-primary);
+      color: var(--net-color-primary);
   }
   /* Calendar border bottom date in  */
   .dates-range .checkin-date {
-      border-bottom: 2px solid var(--custom-color-primary);
+      border-bottom: 2px solid var(--net-color-primary);
   }
   /* dates btns check date */
   .mobile-calendar-container .p-datepicker table td>span.p-highlight {
-      background: var(--custom-color-primary);
+      background: var(--net-color-primary);
   }
   .hotel-detail-tabs .mat-tab-group.mat-primary .mat-ink-bar {
-      background: var(--custom-color-primary);
+      background: var(--net-color-primary);
   }
   .room-option-header a {
-      color: var(--custom-color-primary) !important;
+      color: var(--net-color-primary) !important;
   }
   .booking-btn-container .booking-details h2 {
       color: #545454;
@@ -707,27 +847,24 @@ hotel-booking-summary h2 {
     }
 }
 /* Adding some styles */
-.currencyCode, .currencyText {
-    color: var(--custom-color-primary);
-}
 .filter-item .btn-view-more-wrapper button {
-    border-color: var(--custom-color-primary);
-    color: var(--custom-color-primary);
+    border-color: var(--net-color-primary);
+    color: var(--net-color-primary);
 }
 .filter-item .btn-view-more-wrapper button:hover {
-    border-color: var(--custom-color-secundary);
-    color: var(--custom-color-secundary);
+    border-color: var(--net-color-secundary);
+    color: var(--net-color-secundary);
 }
 .btn-show-more__hotel-deltail {
-    border: 1px solid var(--custom-color-primary);
-    color: var(--custom-color-primary);
+    border: 1px solid var(--net-color-secundary);
+    color: var(--net-color-secundary);
     padding: 10px 16px;
 }
 .amenity-grid__item .fa-check {
-    color: var(--custom-color-secundary);
+    color: var(--net-color-secundary);
 }
 .hotel-detail-tabs .mat-tab-group.mat-primary .mat-ink-bar {
-    background-color: var(--custom-color-secundary);
+    background-color: var(--net-color-secundary);
 }
 .mt-2, .my-2 {
     margin-top: 1rem!important;
@@ -738,10 +875,10 @@ hotel-booking-summary h2 {
     background: white;
     border-radius: 8px;
     padding: 4px 25px;
-    border: 1px solid var(--custom-color-primary);
+    border: 1px solid var(--net-color-secundary);
     font-size: 16px!important;
     font-weight: 500;
-    color: var(--custom-color-primary);
+    color: var(--net-color-secundary);
 }
 .ng-star-inserted .passenger-page-title {
     margin-top: 15px;
@@ -750,21 +887,36 @@ hotel-booking-summary h2 {
     color: #444;
 }
 .ribbon:before {
-    border-top: 15px solid var(--custom-color-primary);
+    border-top: 15px solid var(--net-color-primary);
 }
 .menu > li > a {
-    color: var(--custom-color-primary);
+    color: var(--net-color-primary);
 }
 .hotel-info__amenity ul li .fa-check {
-    color: var(--custom-color-secundary);
+    color: var(--net-color-secundary);
 }
 .btn.btn-info:active, .btn.btn-info:focus, .btn.btn-info:hover, .mat-button.btn.btn-info:active, .mat-button.btn.btn-info:focus, .mat-button.btn.btn-info:hover, .mat-raised-button.btn.btn-info:active, .mat-raised-button.btn.btn-info:focus, .mat-raised-button.btn.btn-info:hover, .mat-raised-button.btn:not([class*=mat-elevation-z]).btn-info:active, .mat-raised-button.btn:not([class*=mat-elevation-z]).btn-info:focus, .mat-raised-button.btn:not([class*=mat-elevation-z]).btn-info:hover {
     box-shadow: none;
 }
 .mat-calendar-body-selected {
-    background: var(--custom-color-primary);
+    background: var(--net-color-primary);
 }
 .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
-    background-color: var(--custom-color-primary);
+    background-color: var(--net-color-primary);
     color: #fff;
+}
+
+
+.mdc-button.mdc-button{
+  background: var(--net-color-primary) !important;
+}
+
+#book-btn{
+  margin-top: 1rem;
+  background: var(--net-color-primary) !important;
+  border-radius: 8px !important;
+}
+
+.reprice{
+  display: block !important;
 }
