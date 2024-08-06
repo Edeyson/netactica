@@ -920,3 +920,6 @@ hotel-booking-summary h2 {
 .reprice{
   display: block !important;
 }
+.footer-net__list--redes{
+    flex-direction: row !important;
+}

@@ -1,0 +1,152 @@
+:root {
+    --font-family-primary: "Roboto", sans-serif;
+    --font-family-secundary: "Roboto", sans-serif;
+  }
+  
+  :root {
+    --net-color-primary: #ffb300;
+    --net-color-secundary: #000000;
+    --net-color-sucess: #198754;
+    --net-color-danger: #dc3545;
+    --net-color-warning: #ffc107;
+    --net-color-info: #0197ec;
+    --net-color-light: #fff;
+    --net-color-dark: #596266;
+    /*Color de botones*/
+    --net-btn-bg-primary: #ffb300;
+    --net-btn-bg-primary-hover: #ca951b;
+    /*esta configuracion de abajo aplica unicamente a header transparente*/
+    --color-header-link: #000;
+    --color-header-link-hover: #000;
+    --color-header-transparent-link: #fff;
+    --color-header-transparent-link-hover: #fff;
+    /*Color de links para paginas*/
+    --net-color-link: #ffb300;
+    --net-color-link-hover: #ca951b;
+  }
+
+  html, body {
+    font-family: var(--font-family-primary);
+  }
+
+  p {
+    margin: 0;
+}
+span.nts-tag {
+    border-radius: 20px;
+}
+
+.w-100{
+    width: 100% !important;
+}
+footer ul, header ul{
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+.footer-net__list--redes{
+    flex-direction: row !important;
+}
+
+.footer-net__list--redes iconify-icon{
+    font-size: 1rem !important;
+}
+
+.footer-net__item .link--icon{
+    color: var(--net-color-light) !important;
+}
+
+@media (max-width: 767px) {
+    .nts-row .nts-columns-2{
+        width: 100% !important;
+    }
+    .footer-net{
+        margin: 0 !important;
+        width: auto !important;
+    }
+    .header__includes{
+        width: auto !important;
+    }
+    #dnn_dnnLOGO_imgLogo {
+      max-height: 40px;
+    }
+    .header__menu--top{
+      order: 2;
+    }
+    ._navbar--top{
+      background-color: #000 !important;
+    }
+  }
+
+
+  .net-accordion__container {
+    padding: 10px 0 15px;
+  }
+  .net-accordion__title {
+    padding: 10px 0;
+    position: relative;
+    font-size: 18px;
+  }
+  .net-accordion__title::after {
+    content: "+";
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    color: var(--net-color-primary);
+    font-size: 20px;
+    transform: translate(0, -50%);
+    text-align: center;
+    font-weight: bold;
+    transition: 0.5s;
+    background-color: var(--net-color-light);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .net-accordion__child {
+    margin-bottom: 2px;
+  }
+  @media (max-width: 768px) {
+    .net-accordion__child {
+      width: 100%;
+    }
+  }
+  .net-accordion__child.active .net-accordion__title::after {
+    content: "-";
+    padding-bottom: 11px;
+    padding-top: 9px;
+    padding-right: 11px;
+  }
+  .net-accordion__body {
+    padding: 0 0;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .net-accordion__child.active .net-accordion__body {
+    display: block;
+    padding: 10px 0;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  
+  @media (min-width: 769px) {
+    .net-accordion__title::after {
+      content: inherit;
+    }
+    .net-accordion__body {
+      height: -moz-max-content;
+      height: max-content;
+      padding: 10px 0;
+      background-color: transparent;
+    }
+    .net-accordion__title {
+      background-color: transparent;
+      font-weight: 500;
+      font-size: 17px;
+    }
+  }
