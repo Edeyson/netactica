@@ -1,0 +1,11 @@
+<script>
+if(window.location.pathname=="/NetFulfillment/Login.aspx"){
+            $('head').append('<meta name="viewport" content="width=device-width,initial-scale=1">');
+        }
+</script>
+
+@media (max-width: 767px) {
+    .nts-row .nts-columns-2{
+        width: 100% !important;
+    }
+}

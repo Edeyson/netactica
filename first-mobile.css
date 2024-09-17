@@ -1,0 +1,226 @@
+@import url("https://www.netactica.com/Portals/0/assets_for_all_results/estructura.css");
+:root {
+    --font-family-primary: "Poppins", sans-serif;
+    --font-family-secundary: "Poppins", sans-serif;
+    --net-color-primary: #777;
+    --net-color-secundary: #007BFF;
+    --net-color-sucess: #198754;
+    --net-color-danger: #dc3545;
+    --net-color-warning: #ffc107;
+    --net-color-info: #0dcaf0;
+    --net-color-light: #f8f9fa;
+    --net-color-dark: #343a40;
+    --net-btn-bg-primary: #007BFF;
+    --net-btn-bg-primary-hover: #0571dc;
+    --color-header-link: var(--net-color-primary);
+    --color-header-link-hover: var(--net-color-secundary);
+    --color-header-transparent-link: #fff;
+    --color-header-transparent-link-hover: #fff;
+    --net-color-link: #007BFF;
+    --net-color-link-hover: #0571dc;
+}
+/* Base Styles (Mobile First) */
+header {
+  background-color: transparent;
+  height: auto;
+}
+
+.header-container, .header__includes, .footer-net {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#dnn_dnnLOGO_imgLogo {
+  max-height: 40px;
+}
+
+._navbar__btn-page-desk {
+  height: 20px;
+}
+
+.link--icon {
+  color: var(--net-color-light);
+  background-color: var(--net-color-primary);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+}
+.link--icon:hover {
+  color: var(--net-color-light);
+  background-color: var(--net-color-secundary);
+}
+
+.footer-net p, .footer-net__list, ._navbar__list {
+  margin: 0;
+}
+
+.net-accordion__container {
+  padding: 10px 0 15px;
+}
+.net-accordion__title {
+  padding: 10px 0;
+  position: relative;
+  font-size: 18px;
+}
+.net-accordion__title::after {
+  content: "+";
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  color: var(--net-color-primary);
+  font-size: 20px;
+  transform: translate(0, -50%);
+  text-align: center;
+  font-weight: bold;
+  transition: 0.5s;
+  background-color: var(--net-color-light);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.net-accordion__child {
+  margin-bottom: 2px;
+  width: 100%;
+}
+.net-accordion__body {
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+.net-accordion__child.active .net-accordion__title::after {
+  content: "-";
+}
+.net-accordion__child.active .net-accordion__body {
+  padding: 10px 0;
+  height: auto;
+}
+.footer-net__list--row {
+  flex-direction: column;
+}
+.social__list {
+  flex-direction: row;
+}
+
+/* Typography */
+body, input, table, th, td, h1, h2, h3, h4, h5, h6, p {
+  font-family: var(--font-family-primary);
+  line-height: 1.7em;
+}
+
+/* General Styles */
+a {
+  color: var(--net-color-secundary);
+}
+.button {
+  background: var(--net-color-primary);
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+.button:hover, .button:focus {
+  background-color: var(--net-color-secundary);
+}
+
+.callout {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Calendar Styles */
+.ui-datepicker {
+  padding: 7px 10px;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+  margin-left: -14px;
+  margin-top: -5px;
+}
+.ui-datepicker-title span {
+  font-size: 14px;
+}
+span.ui-state-default {
+  font-size: 13px;
+}
+.ui-datepicker td {
+  padding: 0;
+}
+td.undefined.ui-datepicker-today a {
+  color: #2196F3;
+}
+#ui-datepicker-div .ui-state-active, #ui-datepicker-div .ui-state-active-from, #ui-datepicker-div .ui-state-active-to {
+  background-color: #E3F2FD;
+  color: #fff;
+  border-radius: 6px;
+}
+#ui-datepicker-div a.ui-state-default:hover {
+  color: #2196F3;
+  background: #E3F2FD;
+  border-radius: 5px;
+}
+#ui-datepicker-div .ui-widget-header .ui-icon {
+  opacity: 60%;
+}
+#ui-datepicker-div .ui-state-default {
+  font-weight: 500;
+}
+
+/* Media Queries for larger screens */
+@media (min-width: 768px) {
+  #dnn_dnnLOGO_imgLogo {
+    max-height: auto;
+  }
+  .net-accordion__child {
+    width: auto;
+  }
+  .net-accordion__title::after {
+    content: inherit;
+  }
+  .net-accordion__body {
+    height: auto;
+    padding: 10px 0;
+    background-color: transparent;
+  }
+  .net-accordion__title {
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .footer-net__list--row {
+    flex-direction: row;
+  }
+}
+
+/* Custom Styles */
+.price-details strong,
+.price-details,
+.currency,
+.hotel-room__body h2 {
+  color: var(--net-color-secundary);
+}
+.rooms-passenger-icon .fas, 
+.search-input .mat-datepicker-toggle .mat-datepicker-toggle-default-icon, .search-input__icon .far, .search-input__icon .fas,
+.search-btn__data .icon-search-detail {
+  color: var(--net-color-secundary);
+}
+.search-btn__data h2 {
+  color: var(--net-color-primary);
+}
+.filter-item .ngx-slider .ngx-slider-selection, .filter-item .ngx-slider .ngx-slider-pointer {
+  background-color: var(--net-color-secundary);
+}
+.filter-item__title, .hotel-info__title h2, .hotel-detail h2, .hotel-room__info h2 {
+  color: var(--net-color-secundary);
+}
+
+

@@ -28,7 +28,9 @@
   html, body {
     font-family: var(--font-family-primary);
   }
-
+  .header-container{
+    margin-bottom: 1rem;
+  }
   p {
     margin: 0;
 }
@@ -54,6 +56,23 @@ footer ul, header ul{
 
 .footer-net__item .link--icon{
     color: var(--net-color-light) !important;
+}
+
+.link--icon {
+    color: var(--net-color-light) !important;
+    background-color: var(--net-color-primary);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.link--icon img{
+    width: 20px;
+    height: 20px;
 }
 
 @media (max-width: 767px) {
@@ -149,4 +168,11 @@ footer ul, header ul{
       font-weight: 500;
       font-size: 17px;
     }
+  }
+
+
+  
+  .nts-button.nts-highlight{
+    background-color: var(--color-1) !important;
+    color: var(--color-2) !important;
   }

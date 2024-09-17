@@ -1,5 +1,35 @@
 @import url("https://netactica.com/Portals/0/assets_for_all_results/estructura.css");
 
+/* estilos iniciales */
+:root {
+    --font-family-primary: "Quicksand", sans-serif;
+    --font-family-secundary: "Quicksand", sans-serif;
+  }
+  
+  :root {
+    --net-color-primary: #00BCD4;
+    --net-color-secundary: #005E74;
+    --custom-color-primary: #00BCD4;
+    --custom-color-secundary: #005E74;
+    --net-color-sucess: #198754;
+    --net-color-danger: #dc3545;
+    --net-color-warning: #ffc107;
+    --net-color-info: #0dcaf0;
+    --net-color-light: #f8f9fa;
+    --net-color-dark: #343a40;
+    /*Color de botones*/
+    --net-btn-bg-primary: #005E74;
+    --net-btn-bg-primary-hover: #00BCD4;
+    /*esta configuracion de abajo aplica unicamente a header transparente*/
+    --color-header-link: var(--net-color-primary);
+    --color-header-link-hover: var(--net-color-secundary);
+    --color-header-transparent-link: #fff;
+    --color-header-transparent-link-hover: #fff;
+    /*Color de links para paginas*/
+    --net-color-link: #005E74;
+    --net-color-link-hover: #00BCD4;
+  }
+  
 
 header{
     background-color: transparent !important;
@@ -8,6 +38,25 @@ header{
 
 .header-container{
     margin-bottom: 1rem;
+}
+
+p {
+    margin: 0;
+}
+span.nts-tag {
+    border-radius: 20px;
+}
+
+header{
+    background-color: transparent !important;
+    height: auto !important;
+}
+.w-100{
+    width: 100% !important;
+}
+footer ul, header ul{
+    padding-left: 0 !important;
+    margin-left: 0 !important;
 }
 
 ._navbar__btn-page-desk{
@@ -133,10 +182,7 @@ header{
       font-size: 17px;
     }
   }
-  
-  .footer-net__list--row{
-    flex-direction: column !important;
-  }
+
   
   .social__list{
     flex-direction: row !important;
@@ -922,4 +968,22 @@ hotel-booking-summary h2 {
 }
 .footer-net__list--redes{
     flex-direction: row !important;
+}
+
+
+  @media (max-width: 767px) {
+    .footer-net{
+        margin: 0 !important;
+    }
+    #dnn_dnnLOGO_imgLogo {
+      max-height: 40px;
+    }
+    .header__menu--top{
+      order: 2;
+    }
+  
+  }
+
+  .filter-container .map-filter__btn button {
+    background-color: var(--custom-color-primary) !important;
 }

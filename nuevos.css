@@ -12,7 +12,33 @@ header{
 .w-100{
     width: 100% !important;
 }
-footer ul{
+footer ul, header ul{
     padding-left: 0 !important;
     margin-left: 0 !important;
+}
+#book-btn{
+    margin-top: 1rem;
+    background: var(--net-color-primary) !important;
+    border-radius: 8px !important;
+  }
+  
+  .reprice{
+    display: block !important;
+  }
+
+  @media (max-width: 767px) {
+    .footer-net{
+        margin: 0 !important;
+    }
+    #dnn_dnnLOGO_imgLogo {
+      max-height: 40px;
+    }
+    .header__menu--top{
+      order: 2;
+    }
+  
+  }
+
+  .filter-container .map-filter__btn button {
+    background-color: var(--custom-color-primary) !important;
 }
