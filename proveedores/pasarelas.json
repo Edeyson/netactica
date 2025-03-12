@@ -1,0 +1,945 @@
+[
+  {
+    "nombre": "Aéreos",
+    "datos": [
+      {
+        "proveedor": "Amadeus",
+        "mercado": "Global",
+        "tipo": "GDS",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.amadeus.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.amadeus.com&size=16"
+      },
+      {
+        "proveedor": "Amadeus Ndcx",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.amadeus.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.amadeus.com&size=16"
+      },
+      {
+        "proveedor": "Azul",
+        "mercado": "Regional",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "hhttps://www.voeazul.com.br/ar/home",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.voeazul.com.br/ar/home"
+      },
+      {
+        "proveedor": "Clic Air",
+        "mercado": "Colombia",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://clicair.co/ahora-somos-clic",
+        "logo": "https://www.google.com/s2/favicons?domain=https://clicair.co/"
+      },
+      {
+        "proveedor": "Conector Netsuite Aéreos",
+        "mercado": "Global",
+        "tipo": "Conexión directa a través de Netsuite",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.netactica.com/Proveedores"
+      },
+      {
+        "proveedor": "Copa",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.copaair.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.copaair.com/&size=16"
+      },
+      {
+        "proveedor": "Ecojet",
+        "mercado": "Bolivia",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.ecojet.com.bo/",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.ecojet.com.bo/"
+      },
+      {
+        "proveedor": "Elatam",
+        "mercado": "Brasil",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "",
+        "logo": "https://img.icons8.com/ios-filled/344/earth-planet.png"
+      },
+      {
+        "proveedor": "Flybondi",
+        "mercado": "Regional",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.flybondi.com/ar",
+        "logo": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.flybondi.com/ar&size=16"
+      },
+      {
+        "proveedor": "GOL",
+        "mercado": "Regional",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.voegol.com/",
+        "logo": "https://www.voegol.com/assets/img/favicon/favicon.ico"
+      },
+      {
+        "proveedor": "Jetsmart",
+        "mercado": "Regional",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.jetsmart.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.jetsmart.com/&size=16"
+      },
+      {
+        "proveedor": "Latam",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.latamairlines.com/",
+        "logo": "https://s.latamairlines.com/images/seo/favicon.ico"
+      },
+      {
+        "proveedor": "Sabre",
+        "mercado": "Global",
+        "tipo": "GDS",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.sabre.com/",
+        "logo": "https://assets.sabre.com/common/favicon.ico"
+      },
+      {
+        "proveedor": "Satena",
+        "mercado": "Colembia",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.satena.com/",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.satena.com/"
+      },
+      {
+        "proveedor": "United Airlines",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.united.com/es/es",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.united.com/es/es"
+      },
+      {
+        "proveedor": "Viva Aerobus",
+        "mercado": "Regional",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.vivaaerobus.com/",
+        "logo": "https://www.vivaaerobus.com/favicon.ico"
+      },
+      {
+        "proveedor": "Volaris",
+        "mercado": "Regional",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.volaris.com/flight",
+        "logo": "https://www.volaris.com/uipl-assets/images/favicon.ico"
+      },
+      {
+        "proveedor": "Wingo",
+        "mercado": "Regional",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.wingo.com/en",
+        "logo": "https://www.wingo.com/img/logo-app-download.png"
+      }
+    ]
+  },
+  {
+    "nombre": "Autos",
+    "datos": [
+      {
+        "proveedor": "Amadeus",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.amadeus.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.amadeus.com&size=16"
+      },
+      {
+        "proveedor": "Avasa",
+        "mercado": "México",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.hertzmexico.com/",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.hertzmexico.com/"
+      },
+      {
+        "proveedor": "Localiza",
+        "mercado": "Regional",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.localiza.com/colombia/es-co",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.localiza.com/brasil/pt-br"
+      },
+      {
+        "proveedor": "Movida",
+        "mercado": "Brasil",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.movida.com.br/",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.movida.com.br/"
+      },
+      {
+        "proveedor": "RentingCarz",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.rentingcarz.com/es/",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.rentingcarz.com/es/"
+      },
+      {
+        "proveedor": "Sabre",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.sabre.com/",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.sabre.com/"
+      }
+    ]
+  },
+  {
+    "nombre": "Buses",
+    "datos": [
+      {
+        "proveedor": "Bookaway",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.bookaway.com/",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.bookaway.com/es"
+      },
+      {
+        "proveedor": "Clickbus",
+        "mercado": "Brasil",
+        "tipo": "Conexión directa",
+        "estado": "En certificación",
+        "preferencial": "No",
+        "link": "https://www.clickbus.com.mx/",
+        "logo": "https://www.clickbus.com.mx/bundles/frontend/img/favicon.ico"
+      },
+      {
+        "proveedor": "Distribusion",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "En certificación",
+        "preferencial": "Si",
+        "link": "",
+        "logo": "https://img.icons8.com/ios-filled/344/earth-planet.png"
+      },
+      {
+        "proveedor": "Pinbus",
+        "mercado": "Colombia",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://pinbus.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://pinbus.com&size=16"
+      }
+    ]
+  },
+  {
+    "nombre": "Hoteles",
+    "datos": [
+      {
+        "proveedor": "Abreu",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.abreuonline.com/Default.aspx",
+        "logo": "https://img.icons8.com/ios-filled/344/earth-planet.png"
+      },
+      {
+        "proveedor": "Action Travel",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.action.travel/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.action.travel/"
+      },
+      {
+        "proveedor": "American Executive",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.americanexecutive.net/hotels/",
+        "logo": "https://img.icons8.com/ios-filled/344/earth-planet.png"
+      },
+      {
+        "proveedor": "Bahía Príncipe",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.bahia-principe.com/es/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.bahia-principe.com/es/"
+      },
+      {
+        "proveedor": "Belive",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.belivehotels.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.belivehotels.com/"
+      },
+      {
+        "proveedor": "Bestbuy",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://bestbuytravel.com.br/",
+        "logo": "https://bestbuytravel.com.br/wp-content/themes/BestBuy/assets/favicon/apple-touch-icon.png"
+      },
+      {
+        "proveedor": "Booking",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.booking.com/index.es.html?label=gen173nr-1DCAEoggI46AdIM1gEaC-IAQGYAQq4ARfIAQzYAQPoAQGIAgGoAgO4ApGtzZkGwAIB0gIkMzk1N2E2OTAtMjFkYy00OTZhLWFjYTUtZDM1YTBkYzhhMzRj2AIE4AIB&sid=a186d4f7b4da862ae9fd522659d5e4d4&keep_landing=1&sb_price_type=total&",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.booking.com/index.es.html?label=gen173nr-1DCAEoggI46AdIM1gEaC-IAQGYAQq4ARfIAQzYAQPoAQGIAgGoAgO4ApGtzZkGwAIB0gIkMzk1N2E2OTAtMjFkYy00OTZhLWFjYTUtZDM1YTBkYzhhMzRj2AIE4AIB&sid=a186d4f7b4da862ae9fd522659d5e4d4&keep_landing=1&sb_price_type=total&"
+      },
+      {
+        "proveedor": "Bookpro",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://booko.pro/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://booko.pro/"
+      },
+      {
+        "proveedor": "By hours",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En desarrollo",
+        "preferencial": "Si",
+        "link": "https://www.byhours.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.byhours.com/"
+      },
+      {
+        "proveedor": "Catalonia",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.cataloniahotels.com/es",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.cataloniahotels.com/"
+      },
+      {
+        "proveedor": "Decameron",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.decameron.com/es/otr-inicio",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.decameron.com/es/otr-inicio"
+      },
+      {
+        "proveedor": "Dida",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En certificación",
+        "preferencial": "Si",
+        "link": "https://www.didatravel.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.didatravel.com/"
+      },
+      {
+        "proveedor": "Expedia",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.expedia.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.expedia.com/"
+      },
+      {
+        "proveedor": "Go Global",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.goglobal.travel/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.goglobal.travel/"
+      },
+      {
+        "proveedor": "Hotelbeds",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.hotelbeds.com/home",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.hotelbeds.com/home"
+      },
+      {
+        "proveedor": "Hoteldo",
+        "mercado": "Latam",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.hoteldo.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.hoteldo.com/"
+      },
+      {
+        "proveedor": "Hoteles Netsuite",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.netactica.com/Proveedores"
+      },
+      {
+        "proveedor": "Hyperguest",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.hyperguest.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.hyperguest.com/"
+      },
+      {
+        "proveedor": "Impressive",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.impressiveresorts.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.impressiveresorts.com/"
+      },
+      {
+        "proveedor": "Itaparica",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "",
+        "logo": "https://img.icons8.com/ios-filled/344/earth-planet.png"
+      },
+      {
+        "proveedor": "Journeys",
+        "mercado": "Brasil",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://journeys.com.br/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://journeys.com.br/"
+      },
+      {
+        "proveedor": "Jumbotours",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.jumbotours.com/es/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.jumbotours.com/es/"
+      },
+      {
+        "proveedor": "Lot Of Hotels",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "Stand By",
+        "preferencial": "No",
+        "link": "https://www.lotsofhotels.com/cliente/login.aspx",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.lotsofhotels.com/cliente/login.aspx"
+      },
+      {
+        "proveedor": "Marriott",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.marriott.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.marriott.com/"
+      },
+      {
+        "proveedor": "Mybeds",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.mybeds.com/en/home",
+        "logo": "https://irp-cdn.multiscreensite.com/6908ac2e/import/clib/mybeds_com/dms3rep/multi/icono-81x78.png"
+      },
+      {
+        "proveedor": "Nexustours",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "Stand By",
+        "preferencial": "Si",
+        "link": "https://www.nexustours.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.nexustours.com/"
+      },
+      {
+        "proveedor": "Ocean",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.oceanhotels.net/es",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.oceanhotels.net/es"
+      },
+      {
+        "proveedor": "Olympia Europe",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.oceanhotels.net/es",
+        "logo": "https://img.icons8.com/ios-filled/344/earth-planet.png"
+      },
+      {
+        "proveedor": "Omnibees",
+        "mercado": "Brasil/Latam",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://omnibees.com/es/home-3/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://omnibees.com/es/home-3/"
+      },
+      {
+        "proveedor": "OTS Globe",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://otsglobe.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://otsglobe.com/"
+      },
+      {
+        "proveedor": "Panamericana",
+        "mercado": "Colombia",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://panamericanadeviajes.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://panamericanadeviajes.com/"
+      },
+      {
+        "proveedor": "Paximun",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.paximum.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.paximum.com/"
+      },
+      {
+        "proveedor": "Pricetravel",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.pricetravel.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.pricetravel.com/"
+      },
+      {
+        "proveedor": "Ratehawk",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En desarrollo",
+        "preferencial": "Si",
+        "link": "https://www.ratehawk.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.ratehawk.com/"
+      },
+      {
+        "proveedor": "Restel",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.restelhotels.com/rs3b2b/web/home",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.restelhotels.com/rs3b2b/web/home"
+      },
+      {
+        "proveedor": "Riu",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.riu.com/es/home.jsp",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.riu.com/es/home.jsp"
+      },
+      {
+        "proveedor": "Roombeast",
+        "mercado": "Chile",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.book.roombeast.com/",
+        "logo": "https://img.icons8.com/ios-filled/344/earth-planet.png"
+      },
+      {
+        "proveedor": "RTS",
+        "mercado": "Asia/Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "",
+        "logo": "https://img.icons8.com/ios-filled/344/earth-planet.png"
+      },
+      {
+        "proveedor": "Sabre GDS",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "Stand By",
+        "preferencial": "No",
+        "link": "https://www.sabre.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.sabre.com/"
+      },
+      {
+        "proveedor": "Sandos",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.sandos.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.sandos.com/"
+      },
+      {
+        "proveedor": "Sirenis",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.sirenishotels.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.sirenishotels.com/"
+      },
+      {
+        "proveedor": "TBO",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.tboholidays.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.tboholidays.com/"
+      },
+      {
+        "proveedor": "Tektraveler",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "Stand By",
+        "preferencial": "Si",
+        "link": "https://www.tektraveler.com/es/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.tektraveler.com/es/"
+      },
+      {
+        "proveedor": "TheHouseOfAia",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://thehouseofaia.com/es/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://thehouseofaia.com/es/"
+      },
+      {
+        "proveedor": "Viacapi",
+        "mercado": "Brasil",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://viacapi.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://viacapi.com/"
+      },
+      {
+        "proveedor": "Viva",
+        "mercado": "Global",
+        "tipo": "Channel Manager",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.hotelsviva.com/",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.hotelsviva.com/"
+      },
+      {
+        "proveedor": "W2M",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.w2m.travel/es-es",
+        "logo": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.w2m.travel/es-es"
+      },
+      {
+        "proveedor": "Welcomebeds",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.welcomebeds.com/wbeds/?lang=es",
+        "logo": "https://img.icons8.com/ios-filled/344/earth-planet.png"
+      }
+    ]
+  },
+  {
+    "nombre": "Travel extras",
+    "datos": [
+      {
+        "proveedor": "Civitatis",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.civitatis.com/es/",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.civitatis.com/es/"
+      },
+      {
+        "proveedor": "Globick",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.globick.com/",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.globick.com/"
+      },
+      {
+        "proveedor": "Hotelbeds",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.hotelbeds.com/home",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.hotelbeds.com/home"
+      },
+      {
+        "proveedor": "Omnitours",
+        "mercado": "Global",
+        "tipo": "Mayorista",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.omnitours.com.co/",
+        "logo": "https://www.google.com/s2/favicons?domain=https://www.omnitours.com.co/"
+      },
+      {
+        "proveedor": "Translamex",
+        "mercado": "México",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.translamex.com/",
+        "logo": "https://img.icons8.com/ios-filled/344/earth-planet.png"
+      },
+      {
+        "proveedor": "Turismoi",
+        "mercado": "Regional",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://turismoi.com/es",
+        "logo": "https://www.google.com/s2/favicons?domain=https://turismoi.com/es"
+      }
+    ]
+  },
+  {
+    "nombre": "Pasarelas de pago",
+    "datos": [
+      {
+        "proveedor": "Bitpay",
+        "mercado": "Global",
+        "tipo": "Re dirección",
+        "mediospago": "Criptomoneda",
+        "estado": "En\n                        producción",
+        "preferencial": "No",
+        "link": "https://www.bitpay.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://bitpay.com/"
+      },
+      {
+        "proveedor": "Cielo/BrasPag",
+        "mercado": "Brasil",
+        "tipo": "Web Services Gateway",
+        "mediospago": "Tarjetas de crédito",
+        "estado": "En\n                        producción",
+        "preferencial": "No",
+        "link": "https://www.braspag.com.br/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.braspag.com.br/"
+      },
+      {
+        "proveedor": "Decidir Payway",
+        "mercado": "Argentina",
+        "tipo": "web services gateway",
+        "mediospago": "tarjeta de credito",
+        "estado": "En\n                        producción",
+        "preferencial": "No",
+        "link": "https://www.payway.com.ar/vender-online",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.payway.com.ar/vender-online&size=16"
+      },
+      {
+        "proveedor": "Deuna",
+        "mercado": "Global",
+        "tipo": "GlobalPay",
+        "mediospago": "Switch de pago",
+        "estado": "En desarrollo",
+        "preferencial": "No",
+        "link": "https://www.deuna.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.deuna.com/&size=16"
+      },
+      {
+        "proveedor": "Maxipago",
+        "mercado": "Brasil",
+        "tipo": "Web Services Gateway",
+        "mediospago": "Tarjetas de crédito",
+        "estado": "En\n                        producción",
+        "preferencial": "No",
+        "link": "https://www.maxipago.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.maxipago.com/"
+      },
+      {
+        "proveedor": "Mercado pago",
+        "mercado": "Latam",
+        "tipo": "Re dirección",
+        "mediospago": "Tarjetas de crédito, PSE y Efecty",
+        "estado": "En\n                        producción",
+        "preferencial": "No",
+        "link": "https://www.mercadopago.com.ar/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.mercadopago.com.ar/"
+      },
+      {
+        "proveedor": "Nexio",
+        "mercado": "Global",
+        "tipo": "Switch de pago",
+        "mediospago": "TBD",
+        "estado": "Stand By",
+        "preferencial": "No",
+        "link": "",
+        "logo": "https://img.icons8.com/ios-filled/344/earth-planet.png"
+      },
+      {
+        "proveedor": "Payulatam",
+        "mercado": "Global",
+        "tipo": "Webservices y Redirección",
+        "mediospago": "Tarjetas de crédito, PSE y pago en tiendas",
+        "estado": "En\n                        producción",
+        "preferencial": "No",
+        "link": "https://developers.payulatam.com/latam/es/docs.html",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://developers.payulatam.com/latam/es/docs.html"
+      },
+      {
+        "proveedor": "Placetopay",
+        "mercado": "Colombia y Ecuador",
+        "tipo": "Webservices y Redirección",
+        "mediospago": "Tarjetas de crédito, PSE y pago en tiendas",
+        "estado": "En\n                        producción",
+        "preferencial": "No",
+        "link": "https://sites.placetopay.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sites.placetopay.com/"
+      },
+      {
+        "proveedor": "Puntos Colombia",
+        "mercado": "Colombia",
+        "tipo": "",
+        "mediospago": "",
+        "estado": "En\n                        producción",
+        "preferencial": "No",
+        "link": "https://www.puntoscolombia.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.puntoscolombia.com/&size=16"
+      },
+      {
+        "proveedor": "Redeban",
+        "mercado": "Colombia",
+        "tipo": "GlobalPay, Webservices y Redirección",
+        "mediospago": "Para pagos con tarjeta de crédito y débito, PSE y Puntos Colombia",
+        "estado": "En\n                        producción",
+        "preferencial": "No",
+        "link": "https://www.redeban.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.redeban.com/&size=16"
+      }
+    ]
+  },
+  {
+    "nombre": "Seguros de viaje",
+    "datos": [
+      {
+        "proveedor": "Assist Card",
+        "mercado": "Global",
+        "tipo": "Conexión directa",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.assistcard.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.assistcard.com&size=16"
+      }
+    ]
+  },
+  {
+    "nombre": "Fidelización de puntos",
+    "datos": [
+      {
+        "proveedor": "GoPoints",
+        "mercado": "Brazil",
+        "tipo": "Redención de Puntos",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.gopoints.com.br/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.gopoints.com.br&size=16"
+      },
+      {
+        "proveedor": "Puntos\n                        Colombia",
+        "mercado": "Colombia",
+        "tipo": "Redención de Puntos",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.puntoscolombia.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.puntoscolombia.com&size=16"
+      }
+    ]
+  },
+  {
+    "nombre": "Optimización",
+    "datos": [
+      {
+        "proveedor": "Mize",
+        "mercado": "Global",
+        "tipo": "Rebooking para Hoteles",
+        "estado": "En producción",
+        "preferencial": "Si",
+        "link": "https://www.hotelmize.com/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.hotelmize.com&size=16"
+      }
+    ]
+  },
+  {
+    "nombre": "SSO",
+    "datos": [
+      {
+        "proveedor": "GoPoints",
+        "mercado": "Brazil",
+        "tipo": "SSO",
+        "estado": "En producción",
+        "preferencial": "No",
+        "link": "https://www.gopoints.com.br/",
+        "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.gopoints.com.br&size=16"
+      }
+    ]
+  }
+]

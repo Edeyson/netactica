@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="dnnForm ui-tabs ui-corner-all ui-widget ui-widget-content" id="AccordionTabs_57562">
+        <ul class="dnnAdminTabNav ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header"></ul>
+    </div>
+
+    <script>
+        async function renderFromJSON() {
+            const response = await fetch('proveedores.json'); // Asegúrate de tener este archivo JSON disponible
+            const data = await response.json();
+
+            let container = document.getElementById("AccordionTabs_57562");
+            if (!container) return;
+
+            let tabsNav = container.querySelector(".dnnAdminTabNav");
+            let contentContainer = container.querySelectorAll(".dnnClear");
+
+            tabsNav.innerHTML = "";
+            contentContainer.forEach(div => div.remove());
+
+            data.forEach((category, index) => {
+                let tabId = `Tab_ModuleID_57562_TabID_${13615 + index}`;
+
+                // Crear pestañas
+                let tabItem = document.createElement("li");
+                tabItem.className = "ui-tabs-tab ui-corner-top ui-state-default ui-tab";
+                tabItem.setAttribute("role", "tab");
+                tabItem.innerHTML = `<a href="#${tabId}" class="ui-tabs-anchor">${category.nombre}</a>`;
+                tabsNav.appendChild(tabItem);
+
+                // Crear contenido de pestaña
+                let tabContent = document.createElement("div");
+                tabContent.className = "dnnClear ui-tabs-panel ui-corner-bottom ui-widget-content";
+                tabContent.id = tabId;
+                tabContent.innerHTML = `<h3>${category.nombre}</h3>`;
+
+                let table = document.createElement("table");
+                table.className = "table";
+                table.setAttribute("border", "1");
+                table.setAttribute("cellpadding", "1");
+                table.setAttribute("cellspacing", "1");
+                table.style.width = "100%";
+
+                let thead = document.createElement("thead");
+                let headerRow = document.createElement("tr");
+                headerRow.className = `principal-row principal-row${index + 1}`;
+                ["Proveedor", "Mercado", "Tipo", "Estado", "Preferencial"].forEach(thText => {
+                    let th = document.createElement("th");
+                    th.innerText = thText;
+                    headerRow.appendChild(th);
+                });
+                thead.appendChild(headerRow);
+                table.appendChild(thead);
+
+                let tbody = document.createElement("tbody");
+                category.datos.forEach(item => {
+                    let tr = document.createElement("tr");
+                    tr.className = "rest-row";
+
+                    let tdProveedor = document.createElement("td");
+                    tdProveedor.innerHTML = `<img class="row-image" src="${item.img}"><a class="row-links" href="${item.link}" target="_blank">${item.proveedor}</a>`;
+                    tr.appendChild(tdProveedor);
+
+                    [item.mercado, item.tipo, item.estado, item.preferencial].forEach(text => {
+                        let td = document.createElement("td");
+                        td.innerHTML = text.includes("En producción") ? `<span class="produccion-container"><i class="fa fa-circle"></i> ${text}</span>` : text;
+                        tr.appendChild(td);
+                    });
+
+                    tbody.appendChild(tr);
+                });
+
+                table.appendChild(tbody);
+                tabContent.appendChild(table);
+                container.appendChild(tabContent);
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", renderFromJSON);
+    </script>
+
+</body>
+
+</html>

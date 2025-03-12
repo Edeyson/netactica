@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://en.netactica.com/Portals/1251/skins/net-base-skin/Css/content_flex.css">
+</head>
+
+<body>
+
+    <div id="content"></div>
+
+
+    <script>
+        async function fetchAndRenderJSON() {
+            const response = await fetch('proveedores.json');
+            const data = await response.json();
+            const container = document.getElementById('content');
+            container.innerHTML = '';
+            let ul = document.createElement('ul');
+                ul.classList.add("dnnAdminTabNav","ui-tabs-nav","ui-corner-all","ui-helper-reset","ui-helper-clearfix","ui-widget-header")
+
+            data.forEach((category,index) => {
+                let section = document.createElement('div');
+                section.classList.add('dnnForm','ui-tabs','ui-corner-all', 'ui-widget','ui-widget-content');
+                let li = document.createElement('li');
+                li.setAttribute("role","tab");
+                if(index==0){
+                    li.classList.add("ui-tabs-tab","ui-corner-top","ui-state-default","ui-tab","ui-tabs-active","ui-state-active");
+                    li.setAttribute("tabindex","0");
+                }else{
+                    li.classList.add("ui-tabs-tab","ui-corner-top","ui-state-default","ui-tab");
+                    li.setAttribute("tabindex","-1");
+                }
+                let a = document.createElement("a");
+                a.classList.add("ui-tabs-anchor");
+                a.textContent = category.nombre;
+
+                li.appendChild(a)
+
+                let title = document.createElement('h3');
+                title.textContent = category.nombre;
+                section.appendChild(title);
+
+                let table = document.createElement('table');
+                table.classList.add('data-table');
+                let thead = document.createElement('thead');
+                let tr = document.createElement('tr');
+
+                ['Proveedor', 'Mercado', 'Tipo', 'Estado', 'Preferencial'].forEach(header => {
+                    let th = document.createElement('th');
+                    th.textContent = header;
+                    tr.appendChild(th);
+                });
+
+                thead.appendChild(tr);
+                table.appendChild(thead);
+
+                let tbody = document.createElement('tbody');
+                category.datos.forEach(item => {
+                    let tr = document.createElement('tr');
+                    tr.classList.add("rest-row")
+
+                    let tdProveedor = document.createElement('td');
+                    let img = document.createElement('img');
+                    img.src = item.logo;
+                    img.classList.add('row-image');
+                    let a = document.createElement('a');
+                    a.href = item.proveedor.enlace;
+                    a.textContent = item.proveedor.nombre;
+                    a.target = '_blank';
+                    tdProveedor.appendChild(img);
+                    tdProveedor.appendChild(a);
+                    tr.appendChild(tdProveedor);
+
+                    ['mercado', 'tipo', 'estado', 'preferencial'].forEach(key => {
+                        let td = document.createElement('td');
+                        td.textContent = item[key];
+                        tr.appendChild(td);
+                    });
+
+                    tbody.appendChild(tr);
+                });
+
+                table.appendChild(tbody);
+                ul.appendChild(li)
+                section.appendChild(table);
+                container.appendChild(section);
+            });
+            container.prepend(ul);
+        }
+
+        document.addEventListener('DOMContentLoaded', fetchAndRenderJSON);
+    </script>
+
+</body>
+
+</html>
