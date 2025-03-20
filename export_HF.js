@@ -183,8 +183,8 @@ function exportStyleCatmandu() {
         lines.splice(2, 0, cssRootVariables);
         data = lines.join('\n');
 
-        console.log(data);
         localStorage.setItem('style', data);
+        console.log(data);
     });
 }
 
@@ -192,10 +192,12 @@ function exportStyleNetfullfillment(){
     
 }
 
-onInit();
+
 
 
 function getCSSVariable(varName) {
     return getComputedStyle(document.documentElement).getPropertyValue(varName).trim();
 }
 
+
+onInit();

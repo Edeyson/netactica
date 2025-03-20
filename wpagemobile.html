@@ -1,0 +1,49 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://netactica.com/portals/0/assets_for_all_results/wpage_mobile_2.0.css">
+
+<div class="barProgress">
+</div>
+<div class="wpage" style="display: none;">
+  <div class="wpage__container wpage__container--1">
+    <div class="wpage__filters wpage__filters--first wpage__filters--search skeleton"> </div>
+    <div class="wpage__filters wpage__filters--first  skeleton"></div>
+    <div class="wpage__filters wpage__filters--last skeleton"></div>
+    <div class="wpage__bar skeleton"></div>
+    <div class="wpage__filters wpage__filters--first  skeleton"></div>
+    <div class="wpage__filters wpage__filters--last skeleton"></div>
+    <div class="wpage__bar skeleton"></div>
+    <div class="wpage__filters wpage__filters--first  skeleton"></div>
+    <div class="wpage__filters wpage__filters--last skeleton"></div>
+    <div class="wpage__bar skeleton"></div>
+  </div>
+</div>
+
+<script>
+    document.title = "Over Destinos";
+    $('head').append('<link rel="SHORTCUT ICON" href="https://agencias.overdestinos.co/Portals/28/favicon_over.ico" type="image/x-icon">');
+</script>ss
+
+<script>
+  setTimeout(() => {
+    document.querySelector('.wpage').removeAttribute('style');
+  }, 300);
+  var i = 0;
+  function move() {
+    if (i == 0) {
+      i = 1;
+      var elem = document.querySelector(".barProgress");
+      var width = 1;
+      var id = setInterval(frame, 100);
+      function frame() {
+        if (width >= 100) {
+          clearInterval(id);
+          i = 0;
+        } else {
+          width++;
+          elem.style.width = width + "%";
+        }
+      }
+    }
+  }
+  move();
+</script>

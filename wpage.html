@@ -1,0 +1,105 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://netactica.com/portals/0/assets_for_all_results/wpage_2.0.css">
+
+<div class="barProgress">
+</div>
+<div class="wpage" style="display: none;">
+  <div class="wpage__container wpage__container--1">
+      <div class="wpage__filters wpage__filters--first  skeleton"></div>
+      <div class="wpage__filters wpage__filters--last skeleton"></div>
+      <div class="wpage__bar skeleton"></div>
+      <div class="wpage__filters wpage__filters--first  skeleton"></div>
+      <div class="wpage__filters wpage__filters--last skeleton"></div>
+      <div class="wpage__bar skeleton"></div>
+      <div class="wpage__filters wpage__filters--first  skeleton"></div>
+      <div class="wpage__filters wpage__filters--last skeleton"></div>
+      <div class="wpage__bar skeleton"></div>
+      <div class="wpage__filters wpage__filters--first  skeleton"></div>
+      <div class="wpage__filters wpage__filters--last skeleton"></div>
+      <div class="wpage__bar skeleton"></div>
+      <div class="wpage__filters wpage__filters--first  skeleton"></div>
+      <div class="wpage__filters wpage__filters--last skeleton"></div>
+      <div class="wpage__bar skeleton"></div>
+  </div>
+  <div class="wpage__container wpage__container--2">
+      <div class="wpage__title skeleton"></div>
+      <div class="wpage__block wpage__block--1">
+          <div class="items">
+              <div class="items__item">
+                  <div class="items__block skeleton"></div>
+                  <div class="items__block skeleton"></div>
+              </div>
+              <div class="items__bar skeleton"></div>
+              <div class="items__item">
+                  <div class="items__block skeleton"></div>
+                  <div class="items__block skeleton"></div>
+              </div>
+          </div>
+          <div class="items items--large">
+              <div class="items__item items__item--large">
+                  <div class="items__block skeleton"></div>
+                  <div class="items__block skeleton"></div>
+              </div>
+          </div>
+      </div>
+      <div class="wpage__block wpage__block--2">
+          <div class="items__item">
+              <div class="items__block skeleton"></div>
+              <div class="items__block skeleton"></div>
+          </div>
+          <div class="items__bar skeleton"></div>
+          <div class="items__item">
+              <div class="items__block skeleton"></div>
+              <div class="items__block skeleton"></div>
+          </div>
+          <div class="items__bar skeleton"></div>
+          <div class="items__item">
+              <div class="items__block skeleton"></div>
+              <div class="items__block skeleton"></div>
+          </div>
+      </div>
+      <div class="wpage__block wpage__block--3">
+          <div class="items">
+              <div class="items__item items__item--first">
+                  <div class="items__block skeleton"></div>
+                  <div class="items__block skeleton"></div>
+                  <div class="items__block skeleton"></div>
+              </div>
+              <div class="items__bar skeleton"></div>
+              <div class="items__item">
+                  <div class="items__block skeleton"></div>
+                  <div class="items__block skeleton"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+    <script>
+        // document.title = "demoTravelinn" <--- colocar titulo del sitio;
+        // $('head').append('<link rel="SHORTCUT ICON" href=" --colocar link ICON-- " type="image/x-icon">');
+    </script>
+
+    <script>
+      setTimeout(() => {
+        document.querySelector('.wpage').removeAttribute('style');
+      }, 300);
+      var i = 0;
+      function move() {
+        if (i == 0) {
+          i = 1;
+          var elem = document.querySelector(".barProgress");
+          var width = 1;
+          var id = setInterval(frame, 100);
+          function frame() {
+            if (width >= 100) {
+              clearInterval(id);
+              i = 0;
+            } else {
+              width++;
+              elem.style.width = width + "%";
+            }
+          }
+        }
+      }
+      move();
+    </script>
