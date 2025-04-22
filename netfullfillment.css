@@ -176,3 +176,15 @@ footer ul, header ul{
     background-color: var(--color-1) !important;
     color: var(--color-2) !important;
   }
+
+
+
+  /* [action*="./Login.aspx?UserService"]
+  #Contenido .nts-row .nts-columns-2 {
+      margin: auto;
+      float: none;
+  }
+  [action*="./Login.aspx?UserService"]
+  #NetSiteMasterContent #Contenido .nts-row > div:first-child {
+      display: none;
+  } */
